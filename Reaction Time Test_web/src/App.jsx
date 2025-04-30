@@ -4,6 +4,7 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import List from "./components/List";
+import Chart from "./components/Chart";
 import "./app.css";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <div className="content">
           <Routes>
             <Route exact path="/" Component={List}></Route>
+            <Route exact path="/chart" Component={Chart}></Route>
           </Routes>
           <ToastContainer position="top-right" autoClose={2000} />
         </div>
