@@ -1,10 +1,10 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import BottomNavBar from "./BottomNavBar";
+import BottomNavBar from "./components/BottomNavBar";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import List from "./components/List";
-import Chart from "./components/Chart";
+import List from "./pages/List";
+import Chart from "./pages/Chart";
 import "./app.css";
 
 function App() {
